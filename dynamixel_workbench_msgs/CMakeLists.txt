@@ -45,6 +45,7 @@ add_service_files(
   FILES
   GetDynamixelInfo.srv
   DynamixelCommand.srv
+  DynamixelTorque.srv
 )
 
 generate_messages(
